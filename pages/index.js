@@ -12,11 +12,6 @@ const useStyles = makeStyles((theme) => ({
       color: theme.palette.primary.main,
     },
   },
-  img: {
-    width: "100%",
-    height: "auto",
-    boxShadow: "0px 2px 20px rgba(0,0,0,0.4)",
-  },
 }));
 
 const About = () => {
@@ -39,9 +34,7 @@ const About = () => {
           <Grid item>
             <Button
               component={"a"}
-              target="_blank"
-              rel="noreferrer noopener"
-              href=""
+              href="/gtype/singlePlayer"
               className={classes.btn}
             >
               Single Player
@@ -50,9 +43,7 @@ const About = () => {
           <Grid>  
             <Button
             component={"a"}
-            target="_blank"
-            rel="noreferrer noopener"
-            href=""
+            href="/gtype/multiPlayer"
             className={classes.btn}
           >
             Multi Player
