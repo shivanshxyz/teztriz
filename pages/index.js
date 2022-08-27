@@ -41,16 +41,18 @@ const About = () => {
               component={"a"}
               target="_blank"
               rel="noreferrer noopener"
-              href="https://github.com/SatoruAkiyama/nextjs-and-material-ui-template-with-header-and-footer/"
+              href=""
               className={classes.btn}
             >
               Single Player
             </Button>
+          </Grid>
+          <Grid>  
             <Button
             component={"a"}
             target="_blank"
             rel="noreferrer noopener"
-            href="https://github.com/SatoruAkiyama/nextjs-and-material-ui-template-with-header-and-footer/"
+            href=""
             className={classes.btn}
           >
             Multi Player

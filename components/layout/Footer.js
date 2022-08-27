@@ -59,7 +59,7 @@ const Footer = () => {
           ))}
         </Grid>
         <Grid container direction="column" style={{ margin: "1.2em 0" }}>
-          <Social />
+          
         </Grid>
         <Grid
           item
@@ -73,9 +73,6 @@ const Footer = () => {
             textDecoration: "none",
           }}
         >
-          <Typography className={classes.copylight}>
-            &copy;Satoru Akiyama
-          </Typography>
         </Grid>
       </Container>
     </footer>

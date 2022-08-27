@@ -176,7 +176,7 @@ const Header = () => {
             }}
           >
             <Link href="/">
-              <Typography className={classes.logo}>Material-UI</Typography>
+              <Typography className={classes.logo}>Teztriz</Typography>
             </Link>
             {matches ? drawer : tabs}
           </Toolbar>
